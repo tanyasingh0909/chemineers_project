@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chemineers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+  <img src="chemineers_logo.png">
+  <ul class="nav-links">
+<li class="active"><a href="#">Home</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Blogs</a></li>
+<li><a href="#">Events</a></li>
+<li><a class="ctn">Contact</a></li>
+  </ul>
+  <img src="menubtn.png" alt="" class="menu-btn">
+  </nav>
+  <header>
+    <div class="header-content">
+      <h2>Welcome to 'CHEMINEERS'</h2>
+      <div class="line"></div>
+      <h3>It's all about scaling up!!</h3>
+      <a href="#" class="ctn">Learn more</a>
+    </div>
+  </header>
+<section class="about">
+  <div class="title">
+    <h1>ABOUT US</h1>
+    <div class="line"></div>
+
+  </div>
+  <div class="row">
+    <div class="col">
+      <img src="aboutus1.png" alt="">
+      <h4>Guiding Students</h4>
+      <p>Organize several activities to promote cultural interaction and overall development of our department students.</p>
+      <a href="#" class="ctn">learn more</a>
+
+    </div>
+    <div class="col">
+      <img src="aboutus2.png" alt="">
+      <h4>Enhance progressive culture</h4>
+      <p>Cultivate harmonious bonds among students, faculty, and administration.</p>
+      <a href="#" class="ctn">learn more</a>
+
+    </div>
+  </div>
+</section>
+<section class="blogs">
+  <div class="blogs-content">
+  <h1>CHEME-BLOGS</h1>
+  <div class="line"></div>
+  <p>*Chernobyl Disaster highlighted chemical engineering and safety shortcomings.
+
+  </p>
+  <p>*Six Sigma improves chemical processes using careful data-driven methods.</p>
+  <p>*Graphene's conductivity enhances electronics, batteries, and thermal management applications</p>
+  <p>*CPiezoelectric tiles convert footsteps into electricity for sustainable energy generation.</p>
+  <a href="#" class="ctn">Learn more</a>
+</div>
+</section>
+
+
+  <section class="events">
+    <div class="row">
+      <div class="col content-col">
+        <h1>EVENTS & WORKSHOPS</h1>
+        <div class="line"></div>
+        <p>We conduct time to time workshops,competitions and events to enhance the learning of our students.We also have our annual departmental fest called "EXERGY".We also conduct Simutech Projects to devlop and enhance skills of our students.
+
+        </p>
+        <a href="#" class="ctn">Learn more</a>
+      </div>
+      <div class="col image-col">
+        <div class="image-gallery">
+          <img src="events1.png" alt=""> 
+          <img src="events2.png" alt=""> 
+          <img src="events3.png" alt=""> 
+          <img src="events4.png" alt=""> 
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="footer">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat quibusdam officia voluptas nobis nisi, dolor reiciendis et ipsum amet voluptatem voluptatum dolore reprehenderit provident labore unde, rerum sit sunt distinctio nostrum deleniti non at praesentium.
+    </p>
+    <p>Copyright @2020 outdoor adventure</p>
+  </section>
+
+
+  <script>
+    const menuBtn=document.querySelector('.menu-btn');
+    const navlinks=document.querySelector('.nav-links');
+    menuBtn.addEventListener('click',()=>{
+      navlinks.classList.toggle('mobile-menu')
+    })
+  </script>
+  
+</body>
+</html>
